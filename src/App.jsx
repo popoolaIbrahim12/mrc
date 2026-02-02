@@ -9,13 +9,14 @@ import Section6 from './components/Section6'
 import Section7 from './components/Section7'
 import Section8 from './components/Section8'
 import Footer from './components/Footer'
-import Hero from './components/hero'
 import Section1 from './components/section1'
+import Hero from './components/Hero'
 
 
 const App = () => {
   return (
     <div>
+
       <Header/>
       <Hero/>
    <Section1/>   
