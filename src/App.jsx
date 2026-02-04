@@ -10,7 +10,7 @@ import Section7 from './components/Section7'
 import Section8 from './components/Section8'
 import Footer from './components/Footer'
 import Section1 from './components/section1'
-import Hero from './components/Hero'
+import Hero from "./components/Hero"
 
 
 const App = () => {
