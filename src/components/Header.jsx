@@ -9,7 +9,7 @@ const Header = () => {
                     <h4 className='text-white text-center font-bold text-2xl'>MCR</h4>
                     <p className='text-white text-center'>construction</p>
                 </div>
-                <div className='w-[75%] h-full  flex gap-0.5'>
+                <div className='w-[75%] h-full  flex gap-0.5 '>
                     <div className='w-[78%] h-full bg-amber-50 flex border border-[#FD5521]'>
                             <div className='w-[20%] h-full bg-[#717171] flex items-center justify-center  '>
                     <h4 className='text-white text-center'>Services</h4>
