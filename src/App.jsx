@@ -9,7 +9,7 @@ import Section6 from './components/Section6'
 import Section7 from './components/Section7'
 import Section8 from './components/Section8'
 import Footer from './components/Footer'
-import Section1 from './components/section1'
+import Section1 from "./components/Section1"
 import Hero from "./components/Hero"
 
 
