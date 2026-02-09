@@ -1,36 +1,37 @@
 import React from 'react'
 import Header from './components/Header'
 
-import Section2 from './components/Section2'
-import Section3 from './components/Section3'
-import Section4 from './components/Section4'
-import Section5 from './components/Section5'
-import Section6 from './components/Section6'
-import Section7 from './components/Section7'
-import Section8 from './components/Section8'
-import Footer from './components/Footer'
-import Section1 from "./components/Section1"
-import Hero from "./components/Hero"
+
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Services from './pages/Services'
+import Contact from './pages/Contact'
+import Careers from './pages/Careers'
+import Projects from './pages/Projects'
+import Layout from './components/Layout'
 
 
 const App = () => {
   return (
-    <div>
+    <div className='w-full'>
+      <Routes>
+        <Route path='/' element = {<Layout/>}>
+        <Route path='/services' element = {<Services/>}/>
+        <Route path='/project' element = {<Projects/>}/>
+        <Route path='career' element = {<Careers/>}/>
+        <Route path='/contact' element = {<Contact/>}/>
+        <Route path='/about' element = {<About/>}/>
+        </Route>
+      </Routes>
+      
 
-      <Header/>
-      <Hero/>
-   <Section1/>   
-      <Section2/>
-      <Section3/>
-      <Section4/>
-      <Section5/>
-      <Section6/>
-      <Section7/>
-      <Section8/>
-      <hr className='mt-20 w-[85%] ml-24'/>
-      <Footer/>
+      
     </div>
   )
 }
 
 export default App
+
+
+  
